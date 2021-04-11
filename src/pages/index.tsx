@@ -20,7 +20,7 @@ type InputEvent = ChangeEvent<HTMLInputElement>;
 
 export default function Home(): JSX.Element {
 	const [formState, setFormState] = useState({
-		name: '',
+		name: "",
 		email: '',
 	});
 
